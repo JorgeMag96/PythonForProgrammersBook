@@ -1,4 +1,4 @@
-# PythonForProgrammersBook
+# Python For Programmers
 Contains examples of the book Python From Programmers with introductory AI case studies
 
 Python language examples in the form of Jupyter notebooks.
