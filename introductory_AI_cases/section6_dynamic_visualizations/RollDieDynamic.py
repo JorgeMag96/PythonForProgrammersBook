@@ -14,6 +14,7 @@ import sys
 
 def update(frame_number, rolls, faces, frequencies):
     """Configures bar plot contents for each animation frame."""
+    # roll die and update frequencies
     for i in range(rolls):
         frequencies[random.randrange(1, 7) - 1] += 1
 
@@ -47,4 +48,3 @@ die_animation = animation.FuncAnimation(
     fargs=(rolls_per_frame, values, frequencies))
 
 plt.show() # display window
-
