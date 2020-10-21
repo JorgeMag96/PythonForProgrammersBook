@@ -55,4 +55,3 @@ die_animation = animation.FuncAnimation(
 
 
 plt.show()  # display window
-
